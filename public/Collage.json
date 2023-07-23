@@ -1,0 +1,584 @@
+[
+    {
+        "college_name": "Dhaka College",
+        "image_url": "https://i.ibb.co/6NHQrTD/dhaka.jpg",
+        "admission_dates": {
+            "fall": "2023-06-09",
+            "spring": "2024-07-25",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-03-20",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-10-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-09-30",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },
+    {
+        "college_name": "Comilla College",
+        "image_url": "https://i.ibb.co/qntXXch/comilla.jpg",
+        "admission_dates": {
+            "fall": "2023-02-27",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-05-12",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "Barcelona"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "Tigers"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },
+    {
+        "college_name": "Rajshahi College",
+        "image_url": "https://i.ibb.co/PF0Xjr7/Rajshahi.jpg",
+        "admission_dates": {
+            "fall": "2023-04-05",
+            "spring": "2024-06-17",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-29",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-23",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-19",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },
+    {
+        "college_name": "Rangpur College",
+        "image_url": "https://i.ibb.co/Sw6777r/Rangpur.jpg",
+        "admission_dates": {
+            "fall": "2023-09-01",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "XYZ Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "XYZ Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },
+    {
+        "college_name": "Bagerhat College",
+        "image_url": "https://i.ibb.co/yVpCcs6/Bagerhat.jpg",
+        "admission_dates": {
+            "fall": "2023-09-01",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "XYZ Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "XYZ Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },
+    {
+        "college_name": "Soroardi  College",
+        "image_url": "https://i.ibb.co/d4D7H1W/Soroardi.jpg",
+        "admission_dates": {
+            "fall": "2023-09-01",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "XYZ Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "XYZ Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },{
+        "college_name": "kabi nazrul College",
+        "image_url": "https://i.ibb.co/J2zm6mD/kabi-nazrul.jpg",
+        "admission_dates": {
+            "fall": "2023-09-01",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "XYZ Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "XYZ Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    },{
+        "college_name": "Dania College",
+        "image_url": "https://i.ibb.co/cCYnPq4/Dania.jpg",
+        "admission_dates": {
+            "fall": "2023-09-01",
+            "spring": "2024-01-15",
+            "events": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "sports": [
+                {
+                    "sport_name": "Football",
+                    "team_name": "XYZ Tigers"
+                },
+                {
+                    "sport_name": "Basketball",
+                    "team_name": "XYZ Warriors"
+                }
+            ],
+            "events_details": [
+                {
+                    "event_name": "Freshers' Welcome Party",
+                    "date": "2023-09-10",
+                    "location": "Student Center",
+                    "description": "A fun-filled event to welcome new students."
+                },
+                {
+                    "event_name": "Annual Cultural Fest",
+                    "date": "2024-04-15",
+                    "location": "Auditorium",
+                    "description": "A grand celebration of art, music, and dance."
+                }
+            ],
+            "research_works": [
+                {
+                    "title": "Advancements in Renewable Energy",
+                    "authors": [
+                        "John Smith",
+                        "Emily Johnson"
+                    ],
+                    "publication_date": "2023-05-25",
+                    "description": "A comprehensive study on renewable energy sources."
+                },
+                {
+                    "title": "The Impact of Climate Change",
+                    "authors": [
+                        "David Brown",
+                        "Sophia Lee"
+                    ],
+                    "publication_date": "2023-07-10",
+                    "description": "An analysis of climate change effects on the environment."
+                }
+            ],
+            "sports_categories": [
+                "Football",
+                "Basketball",
+                "Volleyball",
+                "Cricket",
+                "Tennis"
+            ]
+        }
+    }
+]
