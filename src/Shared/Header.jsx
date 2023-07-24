@@ -30,7 +30,8 @@ const Header = () => {
 
 
                 <div className="navbar-end">
-                    profile
+                    <h1>profile</h1>
+                    <button className="btn"><Link to="/login">Login</Link></button>
                 </div>
 
 

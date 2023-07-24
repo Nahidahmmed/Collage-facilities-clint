@@ -10,6 +10,10 @@ import Home from './Pages/Home/Home/Home';
 import CardDetails from './Components/CardDetails';
 import AllCollages from './Pages/AllCollages/AllCollages';
 import Admission from './Pages/Admission/Admission';
+import AuthProvider from './Provider/AuthProvider';
+import Login from './Login/Login';
+import Register from './Register/Register';
+
 
 
 const router = createBrowserRouter([
@@ -22,6 +26,14 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      {
         path: '/AllCollages',
         element: <AllCollages></AllCollages>,
         loader: () => fetch(`http://localhost:5000/collages`)
@@ -32,9 +44,9 @@ const router = createBrowserRouter([
         loader: () => fetch(`http://localhost:5000/collages`)
       },
       {
-        path:'/collages/:id',
+        path: '/collages/:id',
         element: <CardDetails></CardDetails>,
-        loader: ({params}) => fetch(`http://localhost:5000/collages/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/collages/${params.id}`)
       },
     ]
   },
@@ -42,8 +54,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='max-w-[1350px] mx-auto'>
-      <RouterProvider router={router} />
-    </div>
+    <AuthProvider>
+      <div className='max-w-[1350px] mx-auto'>
+        <RouterProvider router={router} />
+      </div>
+    </AuthProvider>
   </React.StrictMode>,
 )
