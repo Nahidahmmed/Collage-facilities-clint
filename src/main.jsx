@@ -9,6 +9,7 @@ import Main from './Layout/Main';
 import Home from './Pages/Home/Home/Home';
 import CardDetails from './Components/CardDetails';
 import AllCollages from './Pages/AllCollages/AllCollages';
+import Admission from './Pages/Admission/Admission';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path: '/AllCollages',
         element: <AllCollages></AllCollages>,
+        loader: () => fetch(`http://localhost:5000/collages`)
+      },
+      {
+        path: '/admission',
+        element: <Admission></Admission>,
         loader: () => fetch(`http://localhost:5000/collages`)
       },
       {

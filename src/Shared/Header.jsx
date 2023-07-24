@@ -6,7 +6,7 @@ const Header = () => {
     const List = <>
         <li><Link className="hover:text-orange-500" to="/">Home</Link></li>
         <li><Link className="hover:text-orange-500" to="/AllCollages">Colleges</Link></li>
-        <li>Admission</li>
+        <li><Link to="/admission">Admission</Link></li>
         <li>My College</li>
     </>
     return (
