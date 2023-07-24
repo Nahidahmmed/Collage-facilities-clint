@@ -5,11 +5,21 @@ import { AuthContext } from "../Provider/AuthProvider";
 
 
 const Login = () => {
-    const {signIn} = useContext(AuthContext);
+    const { signIn,googleSignIn } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
 
     const from = location.state?.from?.pathname || "/";
+
+    const handleGoogleLogin = () => {
+        googleSignIn()
+            .then(res => {
+                console.log(res.user);
+                navigate(from, { replace: true });
+            })
+            .catch(error => console.log(error))
+    }
+
     const handleLogin = event => {
         event.preventDefault();
         const form = event.target;
@@ -52,7 +62,7 @@ const Login = () => {
                             placeholder="Password"
                         />
                         <button
-                            
+
                             type="submit"
                             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg"
                         >
@@ -61,6 +71,7 @@ const Login = () => {
                     </form>
                     <div className="flex items-center justify-between mt-4">
                         <button
+                            onClick={handleGoogleLogin}
                             className="w-full md:w-auto bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg md:mr-4"
                         >
                             Continue with Google

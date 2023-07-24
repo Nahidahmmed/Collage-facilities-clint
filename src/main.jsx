@@ -13,12 +13,14 @@ import Admission from './Pages/Admission/Admission';
 import AuthProvider from './Provider/AuthProvider';
 import Login from './Login/Login';
 import Register from './Register/Register';
+import ErrorPage from './Pages/Error/ErrorPage';
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement:<ErrorPage></ErrorPage>,
     element: <Main></Main>,
     children: [
       {
@@ -36,17 +38,17 @@ const router = createBrowserRouter([
       {
         path: '/AllCollages',
         element: <AllCollages></AllCollages>,
-        loader: () => fetch(`http://localhost:5000/collages`)
+        loader: () => fetch(`https://collage-facilities-server.vercel.app/collages`)
       },
       {
         path: '/admission',
         element: <Admission></Admission>,
-        loader: () => fetch(`http://localhost:5000/collages`)
+        loader: () => fetch(`https://collage-facilities-server.vercel.app/collages`)
       },
       {
         path: '/collages/:id',
         element: <CardDetails></CardDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/collages/${params.id}`)
+        loader: ({ params }) => fetch(`https://collage-facilities-server.vercel.app/collages/${params.id}`)
       },
     ]
   },

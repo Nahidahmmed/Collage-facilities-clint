@@ -9,16 +9,26 @@ import Swal from "sweetalert2";
 const Register = () => {
    
    
-    const { createUser } = useContext(AuthContext);
+    const { createUser,googleSignIn,updateUserProfile } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
 
     const from = location.state?.from?.pathname || "/";
 
+    const handleGoogleLogin = () => {
+        googleSignIn()
+            .then(res => {
+                console.log(res.user);
+                navigate(from, {replace: true});
+            })
+            .catch(error => console.log(error))
+    }
+
     
     const handleSubmit = event => {
         event.preventDefault();
         const form = event.target;
+        const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
         console.log(email, password);
@@ -26,6 +36,16 @@ const Register = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                updateUserProfile(name)
+                .then(() => {
+                    
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Your work has been saved',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
                 Swal.fire({
                     title: 'User Sign up Successful',
                     showClass: {
@@ -37,6 +57,7 @@ const Register = () => {
                 })
                 navigate(from, { replace: true });
             });
+        })
     };
     return (
         <div>
@@ -74,6 +95,7 @@ const Register = () => {
                     </form>
                     <div className="flex items-center justify-between mt-4">
                         <button
+                        onClick={handleGoogleLogin}
                             className="w-full md:w-auto bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-lg md:mr-4"
                         >
                             Continue with Google
