@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -62,8 +63,8 @@ const Cards = ({ collage }) => {
             }
           </ul>
         </div>
-        <button className="bg-purple-600 ms-[270px] text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors duration-300">
-          View Details
+        <button className="bg-purple-600 lg:ms-[270px] text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors duration-300">
+          <Link to={`/collages/${collage._id}`}>View Details</Link>
         </button>
       </div>
     </>

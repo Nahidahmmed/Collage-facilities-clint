@@ -2,6 +2,7 @@
     {
         "college_name": "Dhaka College",
         "image_url": "https://i.ibb.co/6NHQrTD/dhaka.jpg",
+        "rating": 5,
         "admission_dates": {
             "fall": "2023-06-09",
             "spring": "2024-07-25",
@@ -75,6 +76,7 @@
     {
         "college_name": "Comilla College",
         "image_url": "https://i.ibb.co/qntXXch/comilla.jpg",
+        "rating": 4.5,
         "admission_dates": {
             "fall": "2023-02-27",
             "spring": "2024-01-15",
@@ -148,6 +150,7 @@
     {
         "college_name": "Rajshahi College",
         "image_url": "https://i.ibb.co/PF0Xjr7/Rajshahi.jpg",
+        "rating": 4,
         "admission_dates": {
             "fall": "2023-04-05",
             "spring": "2024-06-17",
@@ -221,6 +224,7 @@
     {
         "college_name": "Rangpur College",
         "image_url": "https://i.ibb.co/Sw6777r/Rangpur.jpg",
+        "rating": 4,
         "admission_dates": {
             "fall": "2023-09-01",
             "spring": "2024-01-15",
@@ -294,6 +298,7 @@
     {
         "college_name": "Bagerhat College",
         "image_url": "https://i.ibb.co/yVpCcs6/Bagerhat.jpg",
+        "rating": 3.5,
         "admission_dates": {
             "fall": "2023-09-01",
             "spring": "2024-01-15",
@@ -367,6 +372,7 @@
     {
         "college_name": "Soroardi  College",
         "image_url": "https://i.ibb.co/d4D7H1W/Soroardi.jpg",
+        "rating": 5,
         "admission_dates": {
             "fall": "2023-09-01",
             "spring": "2024-01-15",
@@ -439,6 +445,7 @@
     },{
         "college_name": "kabi nazrul College",
         "image_url": "https://i.ibb.co/J2zm6mD/kabi-nazrul.jpg",
+        "rating": 4.5,
         "admission_dates": {
             "fall": "2023-09-01",
             "spring": "2024-01-15",
@@ -511,6 +518,7 @@
     },{
         "college_name": "Dania College",
         "image_url": "https://i.ibb.co/cCYnPq4/Dania.jpg",
+        "rating": 3.5,
         "admission_dates": {
             "fall": "2023-09-01",
             "spring": "2024-01-15",

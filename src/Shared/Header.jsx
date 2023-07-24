@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 
 
 
 const Header = () => {
     const List = <>
-        <li>Home</li>
-        <li>Colleges</li>
+        <li><Link className="hover:text-orange-500" to="/">Home</Link></li>
+        <li><Link className="hover:text-orange-500" to="/AllCollages">Colleges</Link></li>
         <li>Admission</li>
         <li>My College</li>
     </>
     return (
-            <div className="navbar fixed z-10 max-w-[1350px] bg-transparent shadow-lg text-white rounded-sm">
+            <div className="navbar fixed z-10 max-w-[1350px] bg-gray-900 bg-opacity-40 shadow-lg text-white rounded-sm">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -22,7 +23,7 @@ const Header = () => {
                     <a className="normal-case text-xl font-bold leading-5 p-2 ">The Good<br /><span className="text-orange-400 mr-2">Collages</span>Guide</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal gap-6 font-semibold text-lg">
+                    <ul className="menu menu-horizontal gap-6 font-semibold text-lg ">
                         {List}
                     </ul>
                 </div>

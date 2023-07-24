@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Main from './Layout/Main';
 import Home from './Pages/Home/Home/Home';
+import CardDetails from './Components/CardDetails';
+import AllCollages from './Pages/AllCollages/AllCollages';
+
 
 const router = createBrowserRouter([
   {
@@ -16,7 +19,17 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
-      }
+      },
+      {
+        path: '/AllCollages',
+        element: <AllCollages></AllCollages>,
+        loader: () => fetch(`http://localhost:5000/collages`)
+      },
+      {
+        path:'/collages/:id',
+        element: <CardDetails></CardDetails>,
+        loader: ({params}) => fetch(`http://localhost:5000/collages/${params.id}`)
+      },
     ]
   },
 ]);
